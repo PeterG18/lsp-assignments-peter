@@ -14,7 +14,7 @@ HashMap<String, String> map1,
  	}
  	//checks if anyone of the hashmap is empty
  	if (map1.isEmpty() || map2.isEmpty()) {
- 		throw new NullMapException("at least one hashmap is empty");
+ 		return 0;
  	}
    
    for (Map.Entry<String, String> mapW: map1.entrySet()){
