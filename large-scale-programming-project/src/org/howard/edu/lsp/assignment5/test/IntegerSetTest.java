@@ -236,9 +236,9 @@ public class IntegerSetTest {
 		set2.add(2);
 		set2.add(3);
 		set1.diff(set2);
-		//Test that the integers 1, and 4 aren't shared between the sets
+		//Test that the integers 1, and 4 aren't shared between the sets 
 		assertEquals("[1, 4]", set1.toString());
-		//test that 2, and 3 were the only shared integers between set1 and set2
+		//test that 2, and 3 were the only shared integers between set1 and set2 
 		assertFalse(set1.contains(2));
 		assertFalse(set1.contains(3));
 	}

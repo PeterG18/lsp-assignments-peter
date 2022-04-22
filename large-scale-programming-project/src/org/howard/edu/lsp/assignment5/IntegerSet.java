@@ -81,7 +81,7 @@ public class IntegerSet {
 	 * @param item of type int
 	 */
 	public void add(int item) {
-		// quick check if ithe set contains the item before adding
+		// quick check if ithe set contains the item before adding 
 		if (!this.IntegerSett().contains(item)){
 			this.IntegerSett().add(item);
 			
